@@ -1,6 +1,6 @@
 Contact: [Telegram](https://t.me/Vastavikrahul)
 
-## A stable telegram bot to get restricted messages with custom thumbnail support , made by [TEAM SPY](https://t.me/dev) This bot can run in channels directly (in this case custom thumbnail not supported)
+## A stable telegram bot to get restricted messages with custom thumbnail support , made by [Vastavik Bot](https://t.me/Vastavik_bott) This bot can run in channels directly (in this case custom thumbnail not supported)
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -27,7 +27,7 @@ API: [Telegram.org](https://my.telegram.org/auth)
 
 PYROGRAM SESSION: Search for it ... Make sure the source be trusted otherwise it will lead to accound delete or ban
 
-# How to get vars - [TEAM SPY](https://t.me/dev_gagan)
+# How to get vars:
 
 BOT TOKEN: @Botfather on telegram
 
@@ -35,7 +35,7 @@ AUTH: Go to @missrose_bot, start and send /info to get your id
 
 FORCESUB: Before starting building bots create a public channel and get the username withou '@'
 
-# Deploying Guide - [TEAM SPY](https://t.me/dev_gagan)
+# Deploying Guide:
 
 ## Deploy on `VPS`
 
@@ -85,7 +85,7 @@ python3 -m main
 - connect to github and deploy
 - turn on dynos
 
-# Editing Repo - [TEAM SPY](https://t.me/dev_gagan)
+# Editing Repo:
 
 You can freely edit repo the customisation you can do is -
 - Change command pattern like `/batch` to other name (edit this in ```main/plugins/batch.py```) by searching and replacing `/batch` to desired command.
@@ -99,7 +99,7 @@ change accordingly within ```f""```
 - Change Default thumbnail in main directory there is file named ```thumb.jpg``` remove that and upload your custom ```thumb.jpg```
 - Change cancel command (edit this also in ```batch.py```) search for ```/cancel``` and then change the command accordingly
 
-# Commands Available in Bot - [TEAM SPY](https://t.me/dev_gagan)
+# Commands Available in Bot:
 
 - ```/start``` - to start the bot
 - ```/batch``` - to download the files in range/bulk by giving one post link and range value
