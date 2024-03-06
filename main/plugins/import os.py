@@ -4,7 +4,7 @@ from telethon import events, Button
 from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
-START_PIC = "https://graph.org/file/da97ceca70e55983b4891.png"
+START_PIC = "https://telegra.ph/file/d6bf65d279d3f8edbc3ff.jpg"
 TEXT = "Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👉🏻Execute /batch for bulk process upto 10K files range."
 
 def is_set_button(data):
@@ -66,7 +66,7 @@ async def start_command(event):
 M = "/plan"
 PREMIUM_PIC = "https://graph.org/file/05971cbfdf6987150b9ae.png"
 PRE_TEXT = """🌟 Premium Plan Features 🌟\n\n
-💰 **Premium Price**: Starting from $1 or 70 INR accepted via **__AMAZON GIFT CARD__** (terms and conditions apply).\n
+💰 **Premium Price**: Starting from $3 or 199 INR accepted via **__AMAZON GIFT CARD__** (terms and conditions apply).\n
 📥 **Download Limit**: Users can download up to 10,000 files in a single batch command.\n
 🛑 **Batch Command Interruption**: Once the batch command is initiated, it cannot be stopped immediately due to security and user interruption concerns.\n
    - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n
@@ -78,8 +78,8 @@ PRE_TEXT = """🌟 Premium Plan Features 🌟\n\n
 async def plan_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.url("Send Gift Card Code", url="https://t.me/team_spy_bot")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Send Gift Card Code", url="https://t.me/Vastavikrahul")],
+        [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
     ]
 
     # Sending photo with caption and buttons
@@ -104,8 +104,8 @@ Team SPY
 async def term_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.url("Have a Query?", url="https://t.me/gagan_yan")],
-         [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Have a Query?", url="https://t.me/Vastavikrahul")],
+         [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
     ]
 
     # Sending photo with caption and buttons
