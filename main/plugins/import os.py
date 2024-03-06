@@ -39,7 +39,7 @@ async def sett(event):
 @gagan.on(events.CallbackQuery(pattern=b"rem"))
 async def remt(event):  
     gagan = event.client            
-    await event.edit('Trying... to save Bamby ... Wait')
+    await event.edit('Trying... to save Baby ... Wait')
     try:
         os.remove(f'{event.sender_id}.jpg')
         await event.edit('Removed!')
@@ -52,7 +52,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
     ]
 
     # Sending photo with caption and buttons
