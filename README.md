@@ -1,10 +1,6 @@
-<h1 align="center">
-  <b>Save restricted Content Bot by <a href="https://devgagan.in"> devgagan.in </a>
-</h1> 
+Contact: [Telegram](https://t.me/Vastavikrahul)
 
-Contact: [Telegram](https://t.me/dev_gagan)
-
-## A stable telegram bot to get restricted messages with custom thumbnail support , made by [TEAM SPY](https://t.me/dev_gagan) This bot can run in channels directly (in this case custom thumbnail not supported)
+## A stable telegram bot to get restricted messages with custom thumbnail support , made by [TEAM SPY](https://t.me/dev) This bot can run in channels directly (in this case custom thumbnail not supported)
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -73,15 +69,14 @@ python3 -m main
 - after `python3 -m main`, click `ctrl+A`, `ctrl+D`
 - if you want to stop bot, then enter `screen -r gagan` and to kill screen enter `screen -S gagan -X quit`.
 
-
-## Deploy your bot on `heroku`
-
-» Method - 1:
-- Star the repo, and fork it in desktop mode
-- Go to settings of your forked repo
-- Rename your repo by any other name
-- Click on  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
  
+# Deploy on heroku
+
+
+<a href="https://dashboard.heroku.com/new?template=https://github.com/VastavikRahul00/Vastavik-save-with-thumbnail">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
+
 » Method - 2:
 - Star the repo, and fork it in desktop mode
 - create app in heroku
