@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[🌿🔺सफेद आंकड़ा🔻🌿](https://t.me/R_Rocky_)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Ramkrishna](https://t.me/rxusj)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[🌿🔺सफेद आंकड़ा🔻🌿](https://t.me/R_Rocky_)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Ramkrishna](https://t.me/rxusj)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[🌿🔺सफेद आंकड़ा🔻🌿](https://t.me/R_Rocky_)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Ramkrishna](https://t.me/rxusj)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
                 await client.send_document(
                     sender,
                     path, 
