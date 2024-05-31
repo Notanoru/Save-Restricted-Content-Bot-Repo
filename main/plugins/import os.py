@@ -52,7 +52,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
+        [Button.url("Join Channel", url="https://telegram.dog/Shimperd_bot")]
     ]
 
     # Sending photo with caption and buttons
@@ -64,7 +64,7 @@ async def start_command(event):
     )
 
 M = "/plan"
-PREMIUM_PIC = "https://graph.org/file/05971cbfdf6987150b9ae.png"
+PREMIUM_PIC = "https://graph.org/file/24f018b8f2021d6838bb4.jpg"
 PRE_TEXT = """🌟 Premium Plan Features 🌟\n\n
 💰 **Premium Price**: Starting from $3 or 199 INR accepted via **__AMAZON GIFT CARD__** (terms and conditions apply).\n
 📥 **Download Limit**: Users can download up to 10,000 files in a single batch command.\n
@@ -78,8 +78,8 @@ PRE_TEXT = """🌟 Premium Plan Features 🌟\n\n
 async def plan_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.url("Send Gift Card Code", url="https://t.me/Vastavikrahul")],
-        [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
+        [Button.url("Send Gift Card Code", url="https://telegram.dog/Shimperd_bot")],
+        [Button.url("Join Channel", url="https://t.me/backmeup_kkk")]
     ]
 
     # Sending photo with caption and buttons
@@ -90,13 +90,13 @@ async def plan_command(event):
         buttons=buttons
     )
 T = "/terms"
-TERM_PIC = "https://graph.org/file/82df13b938b182509081e.png"
+TERM_PIC = "https://graph.org/file/24f018b8f2021d6838bb4.jpg"
 TERM_TEXT = """📜 **Terms and Conditions** 📜\n\n
 - We are not responsible for user deeds, and we do not promote copyrighted content. If any user engages in such activities, it is solely their responsibility.\n
 - Upon purchase, we do not guarantee the uptime, downtime, or the validity of the plan. Authorization and banning of users are at our discretion; we reserve the right to ban or authorize users at any time.\n
 - Payment to us does not guarantee authorization for the /batch command. All decisions regarding authorization are made at our discretion and mood.\n\n
 Thank you,\n
-Vastavik Bot
+Vshimperd Bot
 """
 
 
@@ -104,8 +104,8 @@ Vastavik Bot
 async def term_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.url("Have a Query?", url="https://t.me/Vastavikrahul")],
-         [Button.url("Join Channel", url="https://telegram.dog/Vastavik_bott")]
+        [Button.url("Have a Query?", url="https://telegram.dog/Shimperd_bot")],
+         [Button.url("Join Channel", url="https://t.me/backmeup_kkk")]
     ]
 
     # Sending photo with caption and buttons
