@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__Unrestricting__: __[Vastavik Bot](https://t.me/Vastavik_Bott)__**\n ",
+                    "**__Unrestricting__: __[Shimperd Bot](https://telegram.dog/Shimperd_bot)__**\n ",
                     edit,
                     time.time()
                 )
@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[Krishna](https://t.me/Krishnakingji)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Shimperd](https://telegram.dog/Shimperd_bot)**__" if msg.caption else "__Unrestricted by **[Shimperd Bot](https://telegram.dog/Shimperd_bot)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -187,7 +187,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading: [Vastavik Bot](https://t.me/Vastavik_bott)__**\n ',
+                        '**__Uploading: [Shimperd Bot](https://telegram.dog/Shimperd_bot)__**\n ',
                         upm,
                         time.time()
                     )
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[Krishna](https://t.me/Krishnakingji)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Shimperd](https://telegram.dog/Shimperd_bot)**__" if msg.caption else "__Unrestricted by **[Shimperd Bot](https://telegram.dog/Shimperd_bot)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Downloaded by **[Krishna](https://t.me/Krishnakingji)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavik_bott)**__"
+                caption = f"{msg.caption}\n\n__Downloaded by **[Shimperd](https://telegram.dog/Shimperd_bot)**__" if msg.caption else "__Unrestricted by **[shimperd Bot](https://telegram.dog/Shimperd_bot)**__"
                 await client.send_document(
                     sender,
                     path, 
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading:__**\n**__Bot made by [Vastavik Bot](https://t.me/Vastavik_bott)__**',
+                        '**__Uploading:__**\n**__Bot made by [Shimperd Bot](https://telegram.dog/Shimperd_bot)__**',
                         upm,
                         time.time()
                     )
