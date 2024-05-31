@@ -1,6 +1,6 @@
-Contact: [Telegram](https://t.me/Vastavikrahul)
+Contact: [Telegram](https://telegram.dog/Shimperd_bot)
 
-## A stable telegram bot to get restricted messages with custom thumbnail support , made by [Vastavik Bot](https://t.me/Vastavik_bott) This bot can run in channels directly (in this case custom thumbnail not supported)
+## A stable telegram bot to get restricted messages with custom thumbnail support , made by [Shimperd Bot](https://telegram.dog/Shimperd_bot) This bot can run in channels directly (in this case custom thumbnail not supported)
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -73,7 +73,7 @@ python3 -m main
 # Deploy on heroku
 
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/VastavikRahul00/Save-Restricted-Content-Bot-Repo">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/shimperd/Save-Restricted-Content-Bot-Repo">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
@@ -91,7 +91,7 @@ You can freely edit repo the customisation you can do is -
 - Change command pattern like `/batch` to other name (edit this in ```main/plugins/batch.py```) by searching and replacing `/batch` to desired command.
 - Adding Custom Text in caption (edit this in ```main/plugins/pyroplug.py```) search for 
 ```
-caption = f"{msg.caption}\n\n__Unrestricted by **[Vastavik Bot](https://t.me/Vastavikrahul)**__" if msg.caption else "__Unrestricted by **[Vastavik Bot](https://t.me/Vastavikrahul)**__"
+caption = f"{msg.caption}\n\n__Unrestricted by **[Shimperd Bot](https://telegram.dog/Shimperd_bot)**__" if msg.caption else "__Unrestricted by **[Shimperd Bot](https://telegram.dog/Shimperd_bot)**__"
 ``` 
 change accordingly within ```f""```
 
