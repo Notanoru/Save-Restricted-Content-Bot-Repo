@@ -79,7 +79,7 @@ async def plan_command(event):
     # Creating inline keyboard with buttons
     buttons = [
         [Button.url("Send Gift Card Code", url="https://telegram.dog/Shimperd_bot")],
-        [Button.url("Join Channel", url="https://t.me/backmeup_kkk")]
+        [Button.url("Join Channel", url="https://t.me/+mVX1hOZ9CgFkNDk9")]
     ]
 
     # Sending photo with caption and buttons
@@ -105,7 +105,7 @@ async def term_command(event):
     # Creating inline keyboard with buttons
     buttons = [
         [Button.url("Have a Query?", url="https://telegram.dog/Shimperd_bot")],
-         [Button.url("Join Channel", url="https://t.me/backmeup_kkk")]
+         [Button.url("Join Channel", url="https://t.me/+mVX1hOZ9CgFkNDk9")]
     ]
 
     # Sending photo with caption and buttons
