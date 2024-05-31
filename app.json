@@ -1,6 +1,6 @@
 {
 
-    "name": "Save restricted content bot by Vastavik Rahul",
+    "name": "Save restricted content bot by Shimperd",
     "description": "Telegram bot to save restricted content.",
     "logo": "",
     "keywords": [
@@ -8,9 +8,9 @@
         "Save restricted content",
         "bot"
     ],
-    "repository": "https://github.com/VastavikRahul00/save_restricted-content-telegram-bot-repo",
+    "repository": "https://github.com/shimperd/save_restricted-content-telegram-bot-repo",
     "website": "",
-    "success_url": "https://t.me/Vastavikrahul",
+    "success_url": "https://telegram.dog/Shimperd_botl",
     "env": {
             "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
